@@ -1,0 +1,48 @@
+body {
+  background-image: url(../images/pic-2.jpg) !important;
+}
+
+.centered {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 680px) {
+  .centered {
+    top: 50%;
+  }
+}
+
+.extend {
+  width: 190px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 680px) {
+  .extend {
+    width: 300px;
+  }
+}
+
+.navbar-brand {
+  color: white!important;
+  font-size: 20px;
+}
+
+.dropdown-toggle {
+  color: white!important;
+}
+
+.nav-pills {
+  margin-top: 80px;
+}
+
+@media only screen and (max-width: 680px) {
+  .nav-pills {
+    margin-top: 40px;
+  }
+}
